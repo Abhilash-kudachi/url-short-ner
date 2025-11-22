@@ -1,0 +1,134 @@
+/* ---------- GLOBAL ---------- */
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+  margin: 0;
+  padding: 40px;
+  color: #222;
+}
+
+/* ---------- CONTAINER ---------- */
+.dashboard {
+  max-width: 720px;
+  margin: auto;
+  background: #ffffff;
+  padding: 35px 45px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  animation: fadeIn 0.4s ease-out;
+}
+
+/* ---------- TITLE ---------- */
+h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #1c2331;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+
+/* ---------- FORM ---------- */
+.form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.form input {
+  flex: 1;
+  padding: 14px 16px;
+  border: 2px solid #e3e6eb;
+  border-radius: 14px;
+  font-size: 16px;
+  background: #fafbff;
+  transition: 0.25s;
+}
+
+.form input:focus {
+  border-color: #4e6bff;
+  box-shadow: 0 0 0 4px rgba(78,107,255,0.25);
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.form button {
+  padding: 14px 22px;
+  background: linear-gradient(135deg, #4e6bff, #6c8dff);
+  border: none;
+  border-radius: 14px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.form button:hover {
+  background: linear-gradient(135deg, #3b54dd, #5c7cfa);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(92,124,250,0.3);
+}
+
+/* ---------- LINKS LIST ---------- */
+h3 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 20px;
+  border-left: 4px solid #4e6bff;
+  padding-left: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #ffffff;
+  padding: 17px 22px;
+  border-radius: 14px;
+  margin-bottom: 14px;
+  border: 1px solid #e3e6eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.25s;
+}
+
+li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+li a {
+  color: #4e6bff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+/* Stats link */
+.stats-link {
+  color: #222;
+  background: #eef1f6;
+  padding: 7px 14px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.25s;
+  font-weight: 500;
+}
+
+.stats-link:hover {
+  background: #d5dae5;
+  transform: translateY(-1px);
+}
+
+/* ---------- ANIMATIONS ---------- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}

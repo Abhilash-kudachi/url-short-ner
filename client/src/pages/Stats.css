@@ -1,0 +1,59 @@
+/* Stats Page Wrapper */
+.stats-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  font-family: "Inter", sans-serif;
+}
+
+.stats-container h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+/* Card Box */
+.stats-card {
+  background: #f7f9fc;
+  padding: 25px;
+  border-radius: 14px;
+  border: 1px solid #e4e9f0;
+  margin-bottom: 25px;
+}
+
+.stats-card p {
+  font-size: 18px;
+  margin: 12px 0;
+  color: #333;
+}
+
+.stats-card a {
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.stats-card a:hover {
+  text-decoration: underline;
+}
+
+/* Back Button */
+.back-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background: #0070f3;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.back-btn:hover {
+  background: #005ad1;
+}
