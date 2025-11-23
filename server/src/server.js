@@ -9,8 +9,9 @@ const app = express();
 // MUST BE FIRST
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: ["http://localhost:5173", "https://url-short-ner-1.onrender.com"],
     methods: ["GET", "POST", "DELETE"],
+    credentials: true
   })
 );
 
